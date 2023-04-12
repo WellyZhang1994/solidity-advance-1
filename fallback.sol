@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract Fallback {
+contract fallbacks {
     event Log(string func);
 
-    // Fallback function must be declared as external.
+    //fallback function must be declared as external.
     fallback() external payable {
         emit Log("fallback");
     }
