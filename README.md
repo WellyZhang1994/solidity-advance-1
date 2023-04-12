@@ -1,1 +1,1 @@
-# notes is be written in the code file.
+# notes is written in the code file.
